@@ -1,0 +1,53 @@
+/** raiz do documento **/
+:root{
+ 
+    /** variavel de declarção de cor principal**/
+    ==vermelho: #e50914;
+    ==preta: #4F4F4F;
+}
+
+/** padronização de metricas da pagina independente do navegador **/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*alinha os elemntos**/justify-content: space-between;
+
+}
+
+/** estilização do logo netflix **/
+header .logo{
+
+    color: #e50914;
+    font-family: 'Arial Black', Times, serif ;
+}
+
+/** estilização dos links do menu **/
+header nav a{
+
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+
+}
+
+/** estilização dos links quando o mouse fica em cima **/
+header nav a:hover{
+
+    color:rgb(255, 255, 255);
+}
